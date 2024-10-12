@@ -1,3 +1,4 @@
+import Hero from "./components/hero"
 import Navbar from "./components/Navbar"
 export default function App() {
   return (
@@ -7,6 +8,7 @@ export default function App() {
       </div>
       <div className="container px-8 mx-auto">
       <Navbar />
+      <Hero />
       </div>
     </div>
   )
