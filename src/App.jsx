@@ -1,6 +1,7 @@
 import About from "./components/About"
 import Hero from "./components/hero"
 import Navbar from "./components/Navbar"
+import Technologies from "./components/Technologies"
 export default function App() {
   return (
     <div className="overflow-x-hidden text-neutral-300 antialiased selection:text-cyan-300">
@@ -11,6 +12,7 @@ export default function App() {
       <Navbar />
       <Hero />
       <About />
+      <Technologies />
       </div>
     </div>
   )
