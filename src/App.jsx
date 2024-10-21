@@ -2,6 +2,7 @@ import About from "./components/About"
 import Experience from "./components/Experience"
 import Hero from "./components/hero"
 import Navbar from "./components/Navbar"
+import Projects from "./components/Projects"
 import Technologies from "./components/Technologies"
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
       <About />
       <Technologies />
       <Experience />
+      <Projects />
       </div>
     </div>
   )
