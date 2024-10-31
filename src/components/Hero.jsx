@@ -41,7 +41,7 @@ const Hero = () => {
             initial={{x:100, opacity:0}}
             animate={{x:0, opacity:1}}
             transition={{duration:1, delay:1.2}} 
-            className='border-2 border-green-200 rounded-lg rounded-lg' src={profile} alt="" />
+            className='border-2 border-green-200 rounded-lg' src={profile} alt="" />
         </div>
       </div>
     </div>
