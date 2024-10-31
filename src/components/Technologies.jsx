@@ -1,7 +1,7 @@
-import { animate, motion } from 'framer-motion'
+import { motion } from 'framer-motion'
 import React from 'react'
-import { FaCss3, FaHtml5, FaNodeJs, FaPhp } from 'react-icons/fa'
-import { RiJavascriptLine, RiReactjsLine, RiTailwindCssLine } from 'react-icons/ri'
+import {FaNodeJs, FaPhp } from 'react-icons/fa'
+import {RiReactjsLine, RiTailwindCssLine } from 'react-icons/ri'
 import { SiExpress, SiMongodb, SiMysql } from 'react-icons/si'
 
 const iconVariants=(duration)=>({
