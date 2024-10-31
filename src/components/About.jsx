@@ -1,6 +1,6 @@
 import React from 'react'
 import about from '../assets/about.jpg'
-import { ABOUT_TEXT } from '../constants'
+import { ABOUT_TEXT, ABOUT_TEXT2 } from '../constants'
 import { motion } from 'framer-motion'
 
 const About = () => {
@@ -23,7 +23,7 @@ const About = () => {
              whileInView={{opacity:1, x:0}}
              initial={{opacity:0, x:100}}
              transition={{duration:0.7}}
-            className='py-6 my-6 max-w-xl'>{ABOUT_TEXT}</motion.p>
+            className='py-6 my-6 max-w-xl'>{ABOUT_TEXT} <br /> <br /> {ABOUT_TEXT2}</motion.p>
           </div>
         </div>
       </div>

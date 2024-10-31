@@ -1,7 +1,7 @@
 import React from 'react'
-import { HERO_CONTENT } from '../constants'
+import { HERO_CONTENT, HERO_CONTENT2 } from '../constants'
 import profile from "../assets/profile.jpg";
-import { animate, delay, motion } from "framer-motion"
+import {motion } from "framer-motion"
 
 
 const container=(delay)=>({
@@ -31,7 +31,7 @@ const Hero = () => {
              initial="hidden"
              animate="visible"
               className='my-2 max-w-xl py-6 font-light tracking-tighter'>
-                {HERO_CONTENT}
+                {HERO_CONTENT} <br /><br /> {HERO_CONTENT2}
             </motion.p>
         </div>
       </div>
